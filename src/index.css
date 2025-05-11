@@ -1,0 +1,19 @@
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: #005fa3;
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  section {
+    padding: 40px 15px;
+  }
+}
+
