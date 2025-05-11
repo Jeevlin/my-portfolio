@@ -1,39 +1,60 @@
-# Jeevlin's Portfolio
+# 🌟 Jeevlin's Portfolio
 
-Welcome to my personal portfolio! This site showcases my journey as a **Full Stack Developer** and highlights the projects I've worked on, my skills, and how to contact me.
+Welcome to my personal portfolio! This site showcases my journey as a **Full Stack Developer**—featuring the projects I've built, technologies I specialize in, and ways to get in touch.
+
+---
 
 ## 🚀 About Me
 
-I am a **Full Stack Developer** with a strong foundation in **JavaScript**, **React**, **Node.js**, **Express.js**, **Firebase**, and **MongoDB**. With a passion for building dynamic web applications, I have worked on several projects like **Theatre Ticket Booking**, **Pet Store with Admin Panel**, and **Academy Admin App**. 
+I’m a Full Stack Developer with a solid foundation in **JavaScript**, **React**, **Node.js**, **Express.js**, **Firebase**, and **MongoDB**.
 
-I strive to create clean, efficient, and responsive websites that solve real-world problems.
+I’m passionate about building dynamic web applications and have worked on projects such as:
+
+- 🎟 **Theatre Ticket Booking App**
+- 🐾 **Pet Store with Admin Panel**
+- 🏫 **Academy Admin App**
+
+My focus is always on building **clean**, **efficient**, and **responsive** web experiences that solve real-world problems.
+
+---
 
 ## 💻 Technologies Used
 
-This portfolio showcases my expertise in the following technologies:
+**Frontend**: React, JavaScript, HTML5, CSS3, Bootstrap  
+**Backend**: Node.js, Express.js, Firebase  
+**Database**: MongoDB, Firebase  
+**Deployment**: Netlify, GitHub Pages, Vercel
 
-- **Frontend**: React, JavaScript, HTML5, CSS3, Bootstrap
-- **Backend**: Node.js, Express.js, Firebase
-- **Database**: MongoDB, Firebase
-- **Deployment**: Vercel, GitHub Pages, Netlify
+---
 
 ## 🔧 Features
 
-- **Responsive Design**: Fully responsive across different devices.
-- **Projects Showcase**: Includes all of my important projects with live demos and code links.
-- **Skills Section**: Lists all the technologies I work with.
-- **Contact Section**: Allows users to get in touch with me via email.
+- ✅ Fully **Responsive Design**
+- 🧩 **Project Showcase** with live demos & code links
+- 🛠️ **Skills Section** listing all my core technologies
+- 📬 **Contact Form** for direct communication
+
+---
 
 ## 🌐 Live Demo
 
-You can check out the live demo of my portfolio here:  
-[Live Demo](https://jeevlin-portfolio.netlify.app/)
+👉 [View Portfolio Live](https://jeevlin-portfolio.netlify.app/)
+
+---
 
 ## 🛠️ Setup Instructions
 
-To run this portfolio locally, follow these steps:
-
-### 1. Clone the repository:
+To run this project locally:
 
 ```bash
+# Clone the repository
 git clone https://github.com/jeevlin/my-portfolio.git
+
+# Navigate into the project directory
+cd my-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
