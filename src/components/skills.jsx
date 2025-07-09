@@ -34,7 +34,8 @@ function Skills() {
   const tools = [
     { name: 'Git & GitHub', icon: github },
     { name: 'Postman', icon: postman },
-    { name: 'Netlify', icon: netlify }
+    { name: 'Netlify', icon: netlify },
+    { name: 'Render', icon: render}
   ];
 
   const sectionStyle = {
