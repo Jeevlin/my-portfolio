@@ -13,7 +13,6 @@ import firebase from '../assets/icons/firebase.svg';
 import github from '../assets/icons/github.svg';
 import postman from '../assets/icons/postman.svg';
 import netlify from '../assets/icons/netlify.svg';
-import render from '../assets/icons/render.svg'; 
 
 function Skills() {
   const frontendSkills = [
@@ -35,8 +34,7 @@ function Skills() {
   const tools = [
     { name: 'Git & GitHub', icon: github },
     { name: 'Postman', icon: postman },
-    { name: 'Netlify', icon: netlify },
-    { name: 'Render', icon: render}
+    { name: 'Netlify', icon: netlify }
   ];
 
   const sectionStyle = {
