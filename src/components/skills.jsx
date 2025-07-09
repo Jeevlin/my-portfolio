@@ -13,6 +13,7 @@ import firebase from '../assets/icons/firebase.svg';
 import github from '../assets/icons/github.svg';
 import postman from '../assets/icons/postman.svg';
 import netlify from '../assets/icons/netlify.svg';
+import render from '../assets/icons/render.svg'; 
 
 function Skills() {
   const frontendSkills = [
