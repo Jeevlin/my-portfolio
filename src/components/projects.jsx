@@ -30,8 +30,8 @@ function Projects() {
       title: "Academy Admin App",
       description:
         "Manages admissions, batches, and fees using React and Firebase.",
-      liveLink: "#",
-      codeLink: "https://github.com/Jeevlin/academy-admin-app",
+      liveLink: "https://academy-adminpage.netlify.app",
+      codeLink: "https://github.com/Jeevlin/academy-adminpage",
     },
   ];
 
