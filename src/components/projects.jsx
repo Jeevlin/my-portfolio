@@ -1,56 +1,56 @@
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import './Projects.css'; // Import the CSS file
+
 function Projects() {
   const projects = [
     {
       title: "Theatre Ticket App",
-      description: "A full-featured theatre ticket booking system built using React and Firebase.",
+      description:
+        "A full-featured theatre ticket booking system built using React and Firebase.",
       liveLink: "https://abctheatre.netlify.app/",
-      codeLink: "https://github.com/Jeevlin/theatre-app"
+      codeLink: "https://github.com/Jeevlin/theatre-app",
     },
     {
-      title: "Pet Store App ",
-      description: "An e-commerce-style pet store app built with React for frontend and Node.js, Express.js, and Firebase for backend and admin management.",
-      liveLink: "https://pet-store-app.netlify.app", 
-      codeLink: "https://github.com/Jeevlin/my-pet-app/tree/main/petstore-frontend/vite-project" 
+      title: "Pet Store App",
+      description:
+        "An e-commerce-style pet store app built with React, Node.js, Express.js, and Firebase.",
+      liveLink: "https://pet-store-app.netlify.app",
+      codeLink:
+        "https://github.com/Jeevlin/my-pet-app/tree/main/petstore-frontend/vite-project",
     },
-      {
-      title: "Pet Store App Admin Panel",
-      description: "An e-commerce-style pet store app built with React for frontend and Node.js, Express.js, and Firebase for backend and admin management.",
-      liveLink: "https://timely-semolina-057924.netlify.app", 
-      codeLink: "https://github.com/Jeevlin/my-pet-app/tree/main/Admin-frontend/Pet%20store%20Admin" 
+    {
+      title: "Pet Store Admin Panel",
+      description:
+        "Admin panel for pet store with React frontend and Firebase backend.",
+      liveLink: "https://timely-semolina-057924.netlify.app",
+      codeLink:
+        "https://github.com/Jeevlin/my-pet-app/tree/main/Admin-frontend/Pet%20store%20Admin",
     },
     {
       title: "Academy Admin App",
-      description: "A React + Firebase application to manage student admissions, batches, and fee records for an educational academy.",
-      liveLink: "#", // Add link if deployed
-      codeLink: "https://github.com/Jeevlin/academy-admin-app" // Replace with actual repo
-    }
+      description:
+        "Manages admissions, batches, and fees using React and Firebase.",
+      liveLink: "#",
+      codeLink: "https://github.com/Jeevlin/academy-admin-app",
+    },
   ];
 
   return (
-    <section id="projects" style={{ padding: '60px 20px', backgroundColor: '#f9f9f9' }}>
-      <h2 style={{ textAlign: 'center' }}>Projects</h2>
-      <div style={{
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'center',
-        gap: '20px',
-        marginTop: '30px'
-      }}>
+    <section id="projects" className="projects-section">
+      <h2 className="section-title">Projects</h2>
+      <div className="project-list">
         {projects.map((project, index) => (
-          <div key={index} style={{
-            width: '300px',
-            padding: '20px',
-            border: '1px solid #ddd',
-            borderRadius: '10px',
-            backgroundColor: 'white',
-            boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
-          }}>
-            <h3>{project.title}</h3>
-            <p>{project.description}</p>
-            <p>
-              <a href={project.liveLink} target="_blank" rel="noreferrer">Live Demo</a> |{" "}
-              <a href={project.codeLink} target="_blank" rel="noreferrer">Code</a>
-            </p>
+          <div className="project-card" key={index}>
+            <h3 className="project-title">{project.title}</h3>
+            <p className="project-description">{project.description}</p>
+            <div className="project-links">
+              <a href={project.liveLink} target="_blank" rel="noreferrer">
+                <FaExternalLinkAlt /> Live Demo
+              </a>
+              <a href={project.codeLink} target="_blank" rel="noreferrer">
+                <FaGithub /> Code
+              </a>
+            </div>
           </div>
         ))}
       </div>
