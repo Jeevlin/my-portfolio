@@ -7,7 +7,7 @@ function Contact() {
       <p>
         <a href="" target="_blank" rel="noreferrer" style={{ marginRight: '10px' }}>GitHub</a>
         |
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noreferrer" style={{ marginLeft: '10px' }}>LinkedIn</a>
+        <a href="" target="_blank" rel="noreferrer" style={{ marginLeft: '10px' }}>LinkedIn</a>
       </p>
     </section>
   );
