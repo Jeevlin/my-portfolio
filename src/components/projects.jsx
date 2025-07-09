@@ -10,13 +10,13 @@ function Projects() {
       title: "Pet Store App ",
       description: "An e-commerce-style pet store app built with React for frontend and Node.js, Express.js, and Firebase for backend and admin management.",
       liveLink: "https://pet-store-app.netlify.app", 
-      codeLink: "https://github.com/Jeevlin/petstore-admin-app" 
+      codeLink: "https://github.com/Jeevlin/my-pet-app/tree/main/petstore-frontend/vite-project" 
     },
       {
       title: "Pet Store App Admin Panel",
       description: "An e-commerce-style pet store app built with React for frontend and Node.js, Express.js, and Firebase for backend and admin management.",
       liveLink: "https://timely-semolina-057924.netlify.app", 
-      codeLink: "https://github.com/Jeevlin/petstore-admin-app" 
+      codeLink: "https://github.com/Jeevlin/my-pet-app/tree/main/Admin-frontend/Pet%20store%20Admin" 
     },
     {
       title: "Academy Admin App",
